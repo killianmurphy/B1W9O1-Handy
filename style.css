@@ -1,0 +1,37 @@
+body{ 
+height: 100%;
+ }
+
+.item1{ grid-area: logo; }
+.item2{ grid-area: menubalk; }
+.item3{ grid-area: header; }
+.item4{ grid-area: banners; }
+.item5{ grid-area: balk;  }
+.item6{ grid-area: footer;  }
+.item7{ grid-area: icon;  }
+.item8{ grid-area: tekst;  }
+.item9{ grid-area: contact; }
+.item10{ grid-area: botom; }
+
+.grid-container{ 
+display: grid;
+grid-template-areas: 
+'logo logo logo logo logo logo'
+'menubalk menubalk menubalk menubalk menubalk menubalk' 
+'header header header header header header'
+'banners banners banners banners banners banners'
+'balk balk balk balk balk balk'
+'footer footer footer footer footer footer'
+'icon icon icon icon icon icon'
+'tekst tekst tekst contact contact contact'
+'botom botom botom botom botom botom';
+border:5px blue; 
+}
+
+
+
+
+
+
+
+
