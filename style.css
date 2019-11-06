@@ -1,5 +1,5 @@
 body{ 
-height: 100%;
+	margin: 0;
  }
 
 .item1{ grid-area: logo; }
@@ -15,6 +15,9 @@ height: 100%;
 
 .grid-container{ 
 display: grid;
+width: 100%;
+margin: 0 auto;
+height: 1100px;  
 grid-template-areas: 
 'logo logo logo logo logo logo'
 'menubalk menubalk menubalk menubalk menubalk menubalk' 
@@ -25,13 +28,13 @@ grid-template-areas:
 'icon icon icon icon icon icon'
 'tekst tekst tekst contact contact contact'
 'botom botom botom botom botom botom';
-border:5px blue; 
 }
 
 
+#item1{ 
+background-image: url(img/logo.jpg);
+background-repeat: no-repeat;
+width: 400px;
+ }
 
-
-
-
-
-
+ 
